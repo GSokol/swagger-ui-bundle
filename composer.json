@@ -1,5 +1,5 @@
 {
-    "name": "activelamp/swagger-ui-bundle",
+    "name": "gsokol/swagger-ui-bundle",
     "description": "Creates a Swagger UI page in your Symfony2 application",
     "authors": [
         {
@@ -10,15 +10,16 @@
     "minimum-stability": "stable",
     "require": {
         "php": ">=5.3.0",
-        "symfony/twig-bundle": "~2.1",
-        "symfony/framework-bundle": "~2.1",
-        "symfony/finder" : "~2.1"
+        "symfony/twig-bundle": "3.1.*",
+        "symfony/framework-bundle": "3.1.*",
+        "symfony/finder" : "3.1.*"
     },
     "require-dev" : {
-        "symfony/css-selector": "~2.1",
-        "symfony/browser-kit": "~2.1",
-        "symfony/yaml": "~2.1",
-        "sensio/framework-extra-bundle": "~2.1"
+        "symfony/css-selector": "3.1.*",
+        "symfony/browser-kit": "3.1.*",
+        "symfony/yaml": "3.1.*",
+        "sensio/framework-extra-bundle": "^3.0.2",
+        "phpunit/phpunit": "^5.5"
     },
     "license": "MIT",
     "autoload": {
